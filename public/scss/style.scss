@@ -1,0 +1,56 @@
+@import 'variables';
+
+body{
+	background:$primary-color;
+}
+
+
+body{
+	background:$primary-color;
+	color:#fff;
+}
+
+#form-login{
+	background:#fff;
+	border-radius:5px;
+	padding:10px 20px;
+	width:380px;
+	margin-top:30px;
+	box-shadow:5px 5px 5px #444;
+	img{
+		max-width: 400px;
+		width: 100%;
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+	md-input-container{
+		max-width: 340px;
+		margin: 0 auto; 
+	}
+}
+
+
+.md-primary{
+	background:$primary-color;
+	color:#fff;
+}
+
+
+.logo{
+	max-width: 280px;
+}
+
+.md-button.md-primary.md-raised{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:600;
+	font-size:16px;
+	background-color:$primary-color-button
+}
+
+
+/*dash*/
+
+.md-sidenav-left{
+	background:green;
+}

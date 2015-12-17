@@ -1,0 +1,20 @@
+{
+  "name": "scopemy-app",
+  "version": "0.1.0",
+  "description": "Comunicação baseada em geolocalização.",
+  "main": "server.js",
+  "author": "Maurício Júnior",
+  "dependencies": {
+    "bcrypt-nodejs": "~0.0.3",
+    "body-parser": "~1.5.2",
+    "cookie-parser": "^1.4.0",
+    "cookies": "^0.5.1",
+    "express": "~4.7.2",
+    "jsonwebtoken": "^5.4.1",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "multer": "^1.1.0",
+    "socket.io": "^1.3.7"
+  }
+}

@@ -1,0 +1,46 @@
+<div id="conversation" flex="100" style="overflow-y: auto; height: 100%;padding-bottom:150px;">
+	<md-list-item class="md-3-line post-chat-message" ng-repeat="comment in comments">
+      
+    	<img src="{{comment.user.picture_url}}" class="md-avatar chat" alt="avatar {{comment.first_name}}" ng-if="comment.user.name"/>
+      
+      <div ng-if="!comment.user.name" class="server-msg">
+          <p class="server-msg"> {{comment.data}} </p>
+      </div>
+
+
+
+      <div class="md-list-item-text" layout="column" ng-if="comment.user.name">
+			<div layout-padding >
+				<div layout="row">
+					<h3 class="username">{{comment.user.name}}</h3>
+					<span flex></span>
+				
+				</div>
+          		<p class="user-msg"> {{comment.data}} </p>
+        	</div>
+        </div>
+      	<md-divider ></md-divider>
+  	</md-list-item>
+</div>
+<div style="position:absolute;bottom:0;background:#e4e4e4;width:100%;height:100px;">
+  <div layout="row" layout-padding>
+    <div id="" flex="90">
+        <md-input-container class="md-block">
+          <label>Digite sua mensagem</label>
+          <textarea ng-model="mensagem" id="data" ng-model="user.biography" columns="1" rows="2"></textarea>
+        </md-input-container>
+    </div>
+
+    <div id="" flex="10">
+        <md-button class="md-fab md-primary" aria-label="Enviar" id="datasend" ng-click="enviarMensagem(mensagem)">
+            <md-icon><i class="material-icons">send</i></md-icon>
+        </md-button>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+

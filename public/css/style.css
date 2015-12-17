@@ -1,0 +1,43 @@
+/*COLORS*/
+body {
+  background: #ff4340; }
+
+body {
+  background: #ff4340;
+  color: #fff; }
+
+#form-login {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 380px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 5px #444; }
+  #form-login img {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  #form-login md-input-container {
+    max-width: 340px;
+    margin: 0 auto; }
+
+.md-primary {
+  background: #ff4340;
+  color: #fff; }
+
+.logo {
+  max-width: 280px; }
+
+.md-button.md-primary.md-raised {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #2298f2; }
+
+/*dash*/
+.md-sidenav-left {
+  background: green; }
+
+/*# sourceMappingURL=style.css.map */

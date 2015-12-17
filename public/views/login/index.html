@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="scopeApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Login app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	 <script src="/static/bower/jquery/jquery.min.js"></script>
+	 <script src="/static/bower/angular/angular.min.js"></script>
+	 <script src="/static/bower/angular-route/angular-route.js"></script>
+	 <script src="/static/bower/angular-cookies/angular-cookies.js"></script>
+	 <script src="/static/bower/angular-aria/angular-aria.min.js"></script>
+	 <script src="/static/bower/angular-animate/angular-animate.min.js"></script>
+	 <script src="/static/bower/angular-material/angular-material.min.js"></script>
+	 <link rel="stylesheet" href="/static/bower/angular-material/angular-material.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	  <link rel="stylesheet" href="css/style.css">
+	 <script src="../js/core.js"></script>
+	  <script src="../js/factories/userService.js"></script>
+	 <script src="../js/controllers/scopeAppControllers.js"></script>
+	 <base href="/">
+</head>
+<body>
+
+<body ng-cloack layout="column" layout-padding layout-align="center center">
+	
+
+
+
+
+
+	
+	<md-content  id="form-login">
+		<img src="../images/logo-contraste.png" alt="" class="logo">
+		 <ng-view> </ng-view>
+	</md-content>
+</body>
+</html>

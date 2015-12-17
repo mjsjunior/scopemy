@@ -1,0 +1,27 @@
+{
+  "name": "scopemy-app",
+  "description": "Comunicação baseada em geolocalização.",
+  "main": "server.js",
+  "authors": [
+    "Maurício Júnior"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-route": "1.4.7",
+    "angular-cookies": "1.4.7",
+    "jquery": "2.0.3",
+    "angular-material": "~0.11.4",
+    "angularjs-geolocation": "0.1.1"
+  }
+}
